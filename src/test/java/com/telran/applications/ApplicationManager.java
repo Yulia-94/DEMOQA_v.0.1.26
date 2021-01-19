@@ -42,7 +42,7 @@ public class ApplicationManager {
 
 
         wd.register(new MyListener());
-        wd.navigate().to("https://ru.wikipedia.org/");
+        wd.navigate().to("https://demoqa.com/");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 

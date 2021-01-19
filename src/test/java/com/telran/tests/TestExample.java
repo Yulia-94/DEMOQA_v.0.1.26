@@ -9,7 +9,7 @@ public class TestExample extends TestBase{
 
     @Test
     public void testForLogger(){
-        logger.info("Hello Wiki");
+        logger.info("Hello DEMO QA ");
 
     }
 
