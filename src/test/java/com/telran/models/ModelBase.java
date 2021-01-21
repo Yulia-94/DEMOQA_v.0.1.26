@@ -1,8 +1,8 @@
 package com.telran.models;
 
 public class ModelBase {
-    String fild1;
-    String fild2;
+    private String fild1;
+    private String fild2;
 
     public ModelBase withFild1(String fild1) {
         this.fild1 = fild1;
