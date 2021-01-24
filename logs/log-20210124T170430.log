@@ -1,0 +1,64 @@
+17:04:40 INFO  - Start test - >studentRegFormTest
+17:04:40 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+17:04:40 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+17:04:41 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+17:04:41 INFO  - By.xpath: //span[.='Practice Form']<- found
+17:04:42 INFO  - Start search ->By.id: firstName
+17:04:42 INFO  - By.id: firstName<- found
+17:04:42 INFO  - Start search ->By.id: firstName
+17:04:42 INFO  - By.id: firstName<- found
+17:04:42 INFO  - Start search ->By.id: firstName
+17:04:42 INFO  - By.id: firstName<- found
+17:04:42 INFO  - Start search ->By.id: lastName
+17:04:42 INFO  - By.id: lastName<- found
+17:04:42 INFO  - Start search ->By.id: lastName
+17:04:42 INFO  - By.id: lastName<- found
+17:04:42 INFO  - Start search ->By.id: lastName
+17:04:42 INFO  - By.id: lastName<- found
+17:04:43 INFO  - Start search ->By.id: userEmail
+17:04:43 INFO  - By.id: userEmail<- found
+17:04:43 INFO  - Start search ->By.id: userEmail
+17:04:43 INFO  - By.id: userEmail<- found
+17:04:43 INFO  - Start search ->By.id: userEmail
+17:04:43 INFO  - By.id: userEmail<- found
+17:04:43 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+17:04:43 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+17:04:44 INFO  - Start search ->By.id: userNumber
+17:04:44 INFO  - By.id: userNumber<- found
+17:04:44 INFO  - Start search ->By.id: userNumber
+17:04:44 INFO  - By.id: userNumber<- found
+17:04:44 INFO  - Start search ->By.id: userNumber
+17:04:44 INFO  - By.id: userNumber<- found
+17:04:44 INFO  - Start search ->By.id: dateOfBirthInput
+17:04:44 INFO  - By.id: dateOfBirthInput<- found
+17:04:45 INFO  - Start search ->By.id: dateOfBirthInput
+17:04:45 INFO  - By.id: dateOfBirthInput<- found
+17:04:45 INFO  - Start search ->By.id: dateOfBirthInput
+17:04:45 INFO  - By.id: dateOfBirthInput<- found
+17:04:46 INFO  - Start search ->By.id: dateOfBirthInput
+17:04:46 INFO  - By.id: dateOfBirthInput<- found
+17:04:46 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-1']
+17:04:46 INFO  - By.xpath: //label[@for='hobbies-checkbox-1']<- found
+17:04:46 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-3']
+17:04:46 INFO  - By.xpath: //label[@for='hobbies-checkbox-3']<- found
+17:04:46 INFO  - Start search ->By.id: currentAddress
+17:04:46 INFO  - By.id: currentAddress<- found
+17:04:47 INFO  - Start search ->By.id: currentAddress
+17:04:47 INFO  - By.id: currentAddress<- found
+17:04:47 INFO  - Start search ->By.id: currentAddress
+17:04:47 INFO  - By.id: currentAddress<- found
+17:04:47 INFO  - Start search ->By.id: state
+17:04:47 INFO  - By.id: state<- found
+17:04:47 INFO  - Start search ->By.cssSelector: css-1uccc91-singleValue
+17:04:57 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"css-1uccc91-singleValue"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:61446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8a3e1d6baf572393245baf2507ee4fdf
+*** Element info: {Using=css selector, value=css-1uccc91-singleValue}
+17:04:58 ERROR - src/test/screenshots/screen-1611497097656.png
+17:04:58 INFO  - End of test -> studentRegFormTest
+************************************

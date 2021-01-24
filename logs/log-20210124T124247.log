@@ -1,0 +1,57 @@
+12:42:56 INFO  - Start test - >studentRegFormTest
+12:42:56 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+12:42:56 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+12:42:57 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+12:42:57 INFO  - By.xpath: //span[.='Practice Form']<- found
+12:42:58 INFO  - Start search ->By.id: firstName
+12:42:58 INFO  - By.id: firstName<- found
+12:42:58 INFO  - Start search ->By.id: firstName
+12:42:58 INFO  - By.id: firstName<- found
+12:42:58 INFO  - Start search ->By.id: firstName
+12:42:58 INFO  - By.id: firstName<- found
+12:42:58 INFO  - Start search ->By.id: lastName
+12:42:58 INFO  - By.id: lastName<- found
+12:42:58 INFO  - Start search ->By.id: lastName
+12:42:58 INFO  - By.id: lastName<- found
+12:42:58 INFO  - Start search ->By.id: lastName
+12:42:59 INFO  - By.id: lastName<- found
+12:42:59 INFO  - Start search ->By.id: userEmail
+12:42:59 INFO  - By.id: userEmail<- found
+12:42:59 INFO  - Start search ->By.id: userEmail
+12:42:59 INFO  - By.id: userEmail<- found
+12:42:59 INFO  - Start search ->By.id: userEmail
+12:42:59 INFO  - By.id: userEmail<- found
+12:42:59 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+12:42:59 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+12:43:00 INFO  - Start search ->By.id: userNumber
+12:43:00 INFO  - By.id: userNumber<- found
+12:43:00 INFO  - Start search ->By.id: userNumber
+12:43:00 INFO  - By.id: userNumber<- found
+12:43:00 INFO  - Start search ->By.id: userNumber
+12:43:00 INFO  - By.id: userNumber<- found
+12:43:00 INFO  - Start search ->By.id: dateOfBirthInput
+12:43:00 INFO  - By.id: dateOfBirthInput<- found
+12:43:01 INFO  - Start search ->By.id: dateOfBirthInput
+12:43:01 INFO  - By.id: dateOfBirthInput<- found
+12:43:01 INFO  - Start search ->By.id: dateOfBirthInput
+12:43:01 INFO  - By.id: dateOfBirthInput<- found
+12:43:02 INFO  - Start search ->By.id: dateOfBirthInput
+12:43:02 INFO  - By.id: dateOfBirthInput<- found
+12:43:02 INFO  - Start search ->By.id: dateOfBirthInput
+12:43:02 INFO  - By.id: dateOfBirthInput<- found
+12:43:02 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-1']
+12:43:02 INFO  - By.xpath: //label[@for='hobbies-checkbox-1']<- found
+12:43:02 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-3']
+12:43:02 INFO  - By.xpath: //label[@for='hobbies-checkbox-3']<- found
+12:43:04 INFO  - Start search ->By.id: submit
+12:43:04 INFO  - By.id: submit<- found
+12:43:05 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="submit" class="btn btn-primary">...</button> is not clickable at point (951, 594). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64677}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 788d22de634b0b2e26f21444b8014188
+12:43:05 ERROR - src/test/screenshots/screen-1611481385215.png
+12:43:05 INFO  - End of test -> studentRegFormTest
+************************************

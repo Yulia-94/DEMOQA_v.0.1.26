@@ -1,0 +1,69 @@
+19:06:38 INFO  - Start test - >studentRegFormTest
+19:06:38 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+19:06:38 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+19:06:39 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+19:06:39 INFO  - By.xpath: //span[.='Practice Form']<- found
+19:06:39 INFO  - Start search ->By.id: firstName
+19:06:39 INFO  - By.id: firstName<- found
+19:06:39 INFO  - Start search ->By.id: firstName
+19:06:39 INFO  - By.id: firstName<- found
+19:06:40 INFO  - Start search ->By.id: firstName
+19:06:40 INFO  - By.id: firstName<- found
+19:06:40 INFO  - Start search ->By.id: lastName
+19:06:40 INFO  - By.id: lastName<- found
+19:06:40 INFO  - Start search ->By.id: lastName
+19:06:40 INFO  - By.id: lastName<- found
+19:06:40 INFO  - Start search ->By.id: lastName
+19:06:40 INFO  - By.id: lastName<- found
+19:06:40 INFO  - Start search ->By.id: userEmail
+19:06:40 INFO  - By.id: userEmail<- found
+19:06:40 INFO  - Start search ->By.id: userEmail
+19:06:40 INFO  - By.id: userEmail<- found
+19:06:41 INFO  - Start search ->By.id: userEmail
+19:06:41 INFO  - By.id: userEmail<- found
+19:06:41 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+19:06:41 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+19:06:41 INFO  - Start search ->By.id: userNumber
+19:06:41 INFO  - By.id: userNumber<- found
+19:06:42 INFO  - Start search ->By.id: userNumber
+19:06:42 INFO  - By.id: userNumber<- found
+19:06:42 INFO  - Start search ->By.id: userNumber
+19:06:42 INFO  - By.id: userNumber<- found
+19:06:42 INFO  - Start search ->By.id: dateOfBirthInput
+19:06:42 INFO  - By.id: dateOfBirthInput<- found
+19:06:42 INFO  - Start search ->By.id: dateOfBirthInput
+19:06:42 INFO  - By.id: dateOfBirthInput<- found
+19:06:43 INFO  - Start search ->By.id: dateOfBirthInput
+19:06:43 INFO  - By.id: dateOfBirthInput<- found
+19:06:43 INFO  - Start search ->By.id: dateOfBirthInput
+19:06:43 INFO  - By.id: dateOfBirthInput<- found
+19:06:43 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-1']
+19:06:43 INFO  - By.xpath: //label[@for='hobbies-checkbox-1']<- found
+19:06:43 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-3']
+19:06:44 INFO  - By.xpath: //label[@for='hobbies-checkbox-3']<- found
+19:06:44 INFO  - Start search ->By.id: currentAddress
+19:06:44 INFO  - By.id: currentAddress<- found
+19:06:44 INFO  - Start search ->By.id: currentAddress
+19:06:44 INFO  - By.id: currentAddress<- found
+19:06:44 INFO  - Start search ->By.id: currentAddress
+19:06:44 INFO  - By.id: currentAddress<- found
+19:06:45 INFO  - Start search ->By.id: react-select-3-input
+19:06:45 INFO  - By.id: react-select-3-input<- found
+19:06:45 INFO  - Start search ->By.id: react-select-3-input
+19:06:45 INFO  - By.id: react-select-3-input<- found
+19:06:45 INFO  - Start search ->By.id: react-select-3-input
+19:06:45 INFO  - By.id: react-select-3-input<- found
+19:06:46 INFO  - Start search ->By.id: react-select-3-input
+19:06:46 INFO  - By.id: react-select-3-input<- found
+19:06:46 INFO  - Start search ->By.id: react-select-4-input
+19:06:46 INFO  - By.id: react-select-4-input<- found
+19:06:46 INFO  - Start search ->By.id: react-select-4-input
+19:06:46 INFO  - By.id: react-select-4-input<- found
+19:06:46 INFO  - Start search ->By.id: react-select-4-input
+19:06:46 INFO  - By.id: react-select-4-input<- found
+19:06:46 INFO  - Start search ->By.id: react-select-4-input
+19:06:46 INFO  - By.id: react-select-4-input<- found
+19:06:47 INFO  - Start search ->By.id: submit
+19:06:48 INFO  - By.id: submit<- found
+19:06:48 INFO  - End of test -> studentRegFormTest
+************************************
