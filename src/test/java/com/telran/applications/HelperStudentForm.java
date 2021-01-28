@@ -5,6 +5,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class HelperStudentForm extends HelperBase{
     public HelperStudentForm(WebDriver wd) {
         super(wd);
@@ -120,7 +122,16 @@ public class HelperStudentForm extends HelperBase{
 
         new Select(wd.findElement(By.cssSelector(".react-datepicker__month-select"))).selectByVisibleText(data[1]);
         new Select(wd.findElement(By.cssSelector(".react-datepicker__year-select"))).selectByVisibleText(data[2]);
-        click(By.xpath(String.format("//div[.='%s']", data[0])));
+        //click(By.xpath(String.format("//div[.='%s']", data[0])));
+        WebElement el;
+        List<WebElement> list = wd.findElements(By.xpath(String.format("//div[.='%s']", data[0])));
+        int day = Integer.parseInt(data[0]);
+        if(list.size()>1 && day > 15){
+            el = list.get(1);
+        } else {
+            el = list.get(0);
+        }
+        el.click();
 
     }
 
