@@ -15,8 +15,14 @@ public class HelperAlterWindows extends HelperBase{
     }
 
     public void selectItenAler() {
+       // Actions actions = new Actions(wd);
+      //  actions.moveToElement(wd.findElement(By.xpath("//div//h5[.='Alerts, Frame & Windows']"))).click().perform();
 
-        clickByxPath("//div//h5[.='Alerts, Frame & Windows']");
+       // JavascriptExecutor js = (JavascriptExecutor) wd;
+      //  js.executeScript("window.scrollBy(0,500");
+      //  clickByxPath("//div//h5[.='Alerts, Frame & Windows']");
+        clickByxPath("//div[@class='category-cards']/div[3]");
+
     }
 
     public void selectBrowserWindoes() {

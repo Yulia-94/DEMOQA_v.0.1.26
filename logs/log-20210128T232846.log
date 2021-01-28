@@ -1,0 +1,11 @@
+23:29:28 INFO  - Start test - >testWindows
+23:29:28 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[3]
+23:29:28 INFO  - By.xpath: //div[@class='category-cards']/div[3]<- found
+23:29:36 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+23:29:37 INFO  - By.xpath: //span[.='Browser Windows']<- found
+23:29:38 INFO  - Start search ->By.id: tabButton
+23:29:38 INFO  - By.id: tabButton<- found
+23:29:38 INFO  - Start search ->By.id: sampleHeading
+23:29:39 INFO  - By.id: sampleHeading<- found
+23:29:40 INFO  - End of test -> testWindows
+************************************

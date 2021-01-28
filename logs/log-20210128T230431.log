@@ -1,0 +1,85 @@
+23:04:43 INFO  - Start test - >studentRegFormTest
+23:04:43 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+23:04:43 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+23:04:44 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+23:04:44 INFO  - By.xpath: //span[.='Practice Form']<- found
+23:04:50 INFO  - Start search ->By.id: firstName
+23:04:50 INFO  - By.id: firstName<- found
+23:04:51 INFO  - Start search ->By.id: firstName
+23:04:51 INFO  - By.id: firstName<- found
+23:04:52 INFO  - Start search ->By.id: firstName
+23:04:52 INFO  - By.id: firstName<- found
+23:04:53 INFO  - Start search ->By.id: lastName
+23:04:53 INFO  - By.id: lastName<- found
+23:04:53 INFO  - Start search ->By.id: lastName
+23:04:53 INFO  - By.id: lastName<- found
+23:04:53 INFO  - Start search ->By.id: lastName
+23:04:53 INFO  - By.id: lastName<- found
+23:04:54 INFO  - Start search ->By.id: userEmail
+23:04:54 INFO  - By.id: userEmail<- found
+23:04:54 INFO  - Start search ->By.id: userEmail
+23:04:54 INFO  - By.id: userEmail<- found
+23:04:54 INFO  - Start search ->By.id: userEmail
+23:04:54 INFO  - By.id: userEmail<- found
+23:04:54 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+23:04:54 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+23:04:55 INFO  - Start search ->By.id: userNumber
+23:04:55 INFO  - By.id: userNumber<- found
+23:04:55 INFO  - Start search ->By.id: userNumber
+23:04:55 INFO  - By.id: userNumber<- found
+23:04:56 INFO  - Start search ->By.id: userNumber
+23:04:56 INFO  - By.id: userNumber<- found
+23:04:56 INFO  - Start search ->By.id: dateOfBirthInput
+23:04:56 INFO  - By.id: dateOfBirthInput<- found
+23:04:57 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+23:04:57 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+23:04:57 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+23:04:57 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+23:04:57 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+23:04:58 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+23:04:58 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1994"]
+23:04:58 INFO  - By.xpath: .//option[normalize-space(.) = "1994"]<- found
+23:04:58 INFO  - Start search ->By.xpath: //div[.='18']
+23:04:58 INFO  - By.xpath: //div[.='18']<- found
+23:04:58 INFO  - Start search ->By.id: subjectsInput
+23:04:58 INFO  - By.id: subjectsInput<- found
+23:04:59 INFO  - Start search ->By.id: subjectsInput
+23:04:59 INFO  - By.id: subjectsInput<- found
+23:04:59 INFO  - Start search ->By.id: subjectsInput
+23:04:59 INFO  - By.id: subjectsInput<- found
+23:04:59 INFO  - Start search ->By.id: subjectsInput
+23:04:59 INFO  - By.id: subjectsInput<- found
+23:04:59 INFO  - Start search ->By.id: react-select-2-option-0
+23:04:59 INFO  - By.id: react-select-2-option-0<- found
+23:05:00 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-1']
+23:05:00 INFO  - By.xpath: //label[@for='hobbies-checkbox-1']<- found
+23:05:00 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-3']
+23:05:00 INFO  - By.xpath: //label[@for='hobbies-checkbox-3']<- found
+23:05:01 INFO  - Start search ->By.id: currentAddress
+23:05:01 INFO  - By.id: currentAddress<- found
+23:05:01 INFO  - Start search ->By.id: currentAddress
+23:05:01 INFO  - By.id: currentAddress<- found
+23:05:01 INFO  - Start search ->By.id: currentAddress
+23:05:01 INFO  - By.id: currentAddress<- found
+23:05:04 INFO  - Start search ->By.id: react-select-3-input
+23:05:04 INFO  - By.id: react-select-3-input<- found
+23:05:04 INFO  - Start search ->By.id: react-select-3-input
+23:05:04 INFO  - By.id: react-select-3-input<- found
+23:05:05 INFO  - Start search ->By.id: react-select-3-input
+23:05:05 INFO  - By.id: react-select-3-input<- found
+23:05:05 INFO  - Start search ->By.id: react-select-3-input
+23:05:05 INFO  - By.id: react-select-3-input<- found
+23:05:05 INFO  - Start search ->By.id: react-select-4-input
+23:05:05 INFO  - By.id: react-select-4-input<- found
+23:05:06 INFO  - Start search ->By.id: react-select-4-input
+23:05:06 INFO  - By.id: react-select-4-input<- found
+23:05:06 INFO  - Start search ->By.id: react-select-4-input
+23:05:06 INFO  - By.id: react-select-4-input<- found
+23:05:06 INFO  - Start search ->By.id: react-select-4-input
+23:05:06 INFO  - By.id: react-select-4-input<- found
+23:05:07 INFO  - Start search ->By.id: submit
+23:05:07 INFO  - By.id: submit<- found
+23:05:11 INFO  - Start search ->By.id: closeLargeModal
+23:05:11 INFO  - By.id: closeLargeModal<- found
+23:05:11 INFO  - End of test -> studentRegFormTest
+************************************
