@@ -1,0 +1,48 @@
+20:55:41 INFO  - Start test - >studentRegFormTest
+20:55:41 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+20:55:41 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+20:55:42 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+20:55:42 INFO  - By.xpath: //span[.='Practice Form']<- found
+20:55:43 INFO  - Start search ->By.id: firstName
+20:55:43 INFO  - By.id: firstName<- found
+20:55:43 INFO  - Start search ->By.id: firstName
+20:55:43 INFO  - By.id: firstName<- found
+20:55:43 INFO  - Start search ->By.id: firstName
+20:55:43 INFO  - By.id: firstName<- found
+20:55:43 INFO  - Start search ->By.id: lastName
+20:55:43 INFO  - By.id: lastName<- found
+20:55:43 INFO  - Start search ->By.id: lastName
+20:55:43 INFO  - By.id: lastName<- found
+20:55:44 INFO  - Start search ->By.id: lastName
+20:55:44 INFO  - By.id: lastName<- found
+20:55:44 INFO  - Start search ->By.id: userEmail
+20:55:44 INFO  - By.id: userEmail<- found
+20:55:44 INFO  - Start search ->By.id: userEmail
+20:55:44 INFO  - By.id: userEmail<- found
+20:55:44 INFO  - Start search ->By.id: userEmail
+20:55:44 INFO  - By.id: userEmail<- found
+20:55:44 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+20:55:44 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+20:55:45 INFO  - Start search ->By.id: userNumber
+20:55:45 INFO  - By.id: userNumber<- found
+20:55:45 INFO  - Start search ->By.id: userNumber
+20:55:45 INFO  - By.id: userNumber<- found
+20:55:45 INFO  - Start search ->By.id: userNumber
+20:55:45 INFO  - By.id: userNumber<- found
+20:55:45 INFO  - Start search ->By.id: dateOfBirthInput
+20:55:45 INFO  - By.id: dateOfBirthInput<- found
+20:55:46 INFO  - Start search ->By.xpath: //div[.='18']
+20:55:46 INFO  - By.xpath: //div[.='18']<- found
+20:55:47 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+20:55:57 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".react-datepicker__month-select"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:65018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: da50d8b89a05e1f54e57d90bc0f20fcc
+*** Element info: {Using=css selector, value=.react-datepicker__month-select}
+20:55:57 ERROR - src/test/screenshots/screen-1611597357187.png
+20:55:57 INFO  - End of test -> studentRegFormTest
+************************************

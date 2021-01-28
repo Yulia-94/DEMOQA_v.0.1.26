@@ -1,0 +1,69 @@
+15:04:15 INFO  - Start test - >studentRegFormTest
+15:04:15 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+15:04:16 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+15:04:16 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+15:04:16 INFO  - By.xpath: //span[.='Practice Form']<- found
+15:04:17 INFO  - Start search ->By.id: firstName
+15:04:17 INFO  - By.id: firstName<- found
+15:04:17 INFO  - Start search ->By.id: firstName
+15:04:17 INFO  - By.id: firstName<- found
+15:04:17 INFO  - Start search ->By.id: firstName
+15:04:17 INFO  - By.id: firstName<- found
+15:04:18 INFO  - Start search ->By.id: lastName
+15:04:18 INFO  - By.id: lastName<- found
+15:04:18 INFO  - Start search ->By.id: lastName
+15:04:18 INFO  - By.id: lastName<- found
+15:04:18 INFO  - Start search ->By.id: lastName
+15:04:18 INFO  - By.id: lastName<- found
+15:04:18 INFO  - Start search ->By.id: userEmail
+15:04:18 INFO  - By.id: userEmail<- found
+15:04:19 INFO  - Start search ->By.id: userEmail
+15:04:19 INFO  - By.id: userEmail<- found
+15:04:19 INFO  - Start search ->By.id: userEmail
+15:04:19 INFO  - By.id: userEmail<- found
+15:04:19 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+15:04:19 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+15:04:20 INFO  - Start search ->By.id: userNumber
+15:04:20 INFO  - By.id: userNumber<- found
+15:04:20 INFO  - Start search ->By.id: userNumber
+15:04:20 INFO  - By.id: userNumber<- found
+15:04:20 INFO  - Start search ->By.id: userNumber
+15:04:20 INFO  - By.id: userNumber<- found
+15:04:20 INFO  - Start search ->By.id: dateOfBirthInput
+15:04:20 INFO  - By.id: dateOfBirthInput<- found
+15:04:21 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+15:04:21 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+15:04:21 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+15:04:21 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+15:04:22 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+15:04:22 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+15:04:22 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1994"]
+15:04:22 INFO  - By.xpath: .//option[normalize-space(.) = "1994"]<- found
+15:04:22 INFO  - Start search ->By.xpath: //div[.='18']
+15:04:22 INFO  - By.xpath: //div[.='18']<- found
+15:04:23 INFO  - Start search ->By.id: subjectsInput
+15:04:23 INFO  - By.id: subjectsInput<- found
+15:04:23 INFO  - Start search ->By.id: subjectsInput
+15:04:23 INFO  - By.id: subjectsInput<- found
+15:04:23 INFO  - Start search ->By.id: subjectsInput
+15:04:23 INFO  - By.id: subjectsInput<- found
+15:04:24 INFO  - Start search ->By.id: subjectsInput
+15:04:24 INFO  - By.id: subjectsInput<- found
+15:04:24 INFO  - Start search ->By.id: react-select-2-option-0
+15:04:24 INFO  - By.id: react-select-2-option-0<- found
+15:04:24 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-1']
+15:04:24 INFO  - By.xpath: //label[@for='hobbies-checkbox-1']<- found
+15:04:24 INFO  - Start search ->By.xpath: //label[@for='hobbies-checkbox-3']
+15:04:24 INFO  - By.xpath: //label[@for='hobbies-checkbox-3']<- found
+15:04:24 INFO  - Start search ->By.id: currentAddress
+15:04:24 INFO  - By.id: currentAddress<- found
+15:04:24 ERROR - org.openqa.selenium.JavascriptException: javascript error: missing ) after argument list
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6f2a39ca1723535b279b9ec84e812adc
+15:04:25 ERROR - src/test/screenshots/screen-1611835464943.png
+15:04:25 INFO  - End of test -> studentRegFormTest
+************************************

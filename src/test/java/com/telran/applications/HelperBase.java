@@ -24,18 +24,28 @@ public class HelperBase {
 
 
     public void type(By locator, String text) {
-
+        if(text != null) {
             click(locator);
             wd.findElement(locator).clear();
             wd.findElement(locator).sendKeys(text);
+        }
+    }
 
+    public void typeWithJSE(By local, String text){
+        if(text != null){
+            JavascriptExecutor js = (JavascriptExecutor) wd;
+            js.executeScript("window.scrollBy(0,300");
+            click(local);
+            wd.findElement(local).clear();
+            wd.findElement(local).sendKeys(text);
+        }
     }
 
     public void click(By locator) {
         try {
-           // wd.findElement(locator).click();
-            Actions actions =new Actions(wd);
-            actions.moveToElement(wd.findElement(locator)).click().perform();
+           //wd.findElement(locator).click();
+           Actions actions =new Actions(wd);
+          actions.moveToElement(wd.findElement(locator)).click().perform();
         }catch (Exception ex){
             ex.printStackTrace();
         }

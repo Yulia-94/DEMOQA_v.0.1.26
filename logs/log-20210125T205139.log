@@ -1,0 +1,39 @@
+20:51:59 INFO  - Start test - >studentRegFormTest
+20:51:59 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+20:52:00 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+20:52:01 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+20:52:02 INFO  - By.xpath: //span[.='Practice Form']<- found
+20:52:07 INFO  - Start search ->By.id: firstName
+20:52:07 INFO  - By.id: firstName<- found
+20:52:08 INFO  - Start search ->By.id: firstName
+20:52:08 INFO  - By.id: firstName<- found
+20:52:08 INFO  - Start search ->By.id: firstName
+20:52:08 INFO  - By.id: firstName<- found
+20:52:09 INFO  - Start search ->By.id: lastName
+20:52:09 INFO  - By.id: lastName<- found
+20:52:10 INFO  - Start search ->By.id: lastName
+20:52:10 INFO  - By.id: lastName<- found
+20:52:11 INFO  - Start search ->By.id: lastName
+20:52:11 INFO  - By.id: lastName<- found
+20:52:11 INFO  - Start search ->By.id: userEmail
+20:52:11 INFO  - By.id: userEmail<- found
+20:52:12 INFO  - Start search ->By.id: userEmail
+20:52:12 INFO  - By.id: userEmail<- found
+20:52:13 INFO  - Start search ->By.id: userEmail
+20:52:13 INFO  - By.id: userEmail<- found
+20:52:13 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+20:52:14 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+20:52:15 INFO  - Start search ->By.id: userNumber
+20:52:15 INFO  - By.id: userNumber<- found
+20:52:15 INFO  - Start search ->By.id: userNumber
+20:52:15 INFO  - By.id: userNumber<- found
+20:52:16 INFO  - Start search ->By.id: userNumber
+20:52:16 INFO  - By.id: userNumber<- found
+20:52:16 INFO  - Start search ->By.id: dateOfBirthInput
+20:52:16 INFO  - By.id: dateOfBirthInput<- found
+20:52:16 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+20:52:17 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+20:52:17 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "Mar"]
+20:52:27 INFO  - By.xpath: .//option[normalize-space(.) = "Mar"]<- found
+20:52:28 INFO  - End of test -> studentRegFormTest
+************************************
