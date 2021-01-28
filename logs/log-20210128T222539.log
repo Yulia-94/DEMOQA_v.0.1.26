@@ -1,0 +1,13 @@
+22:25:51 INFO  - Start test - >testWindows
+22:25:51 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+22:25:52 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+22:25:53 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h5>...</h5> is not clickable at point (674, 589). Other element would receive the click: <span>...</span>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53729}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3c1580da3abb7bd0ba1b440b3dfbcfcc
+22:25:54 ERROR - src/test/screenshots/screen-1611861953471.png
+22:25:54 INFO  - End of test -> testWindows
+************************************

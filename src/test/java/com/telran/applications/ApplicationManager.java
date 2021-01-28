@@ -50,7 +50,7 @@ public class ApplicationManager {
 
     public void start() throws IOException {
         String target = System.getProperty("target", "data");
-        properties.load(new FileReader(new File(String.format("src/test/recources/%s.properties", target))));
+        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
         if(browser.equals(BrowserType.CHROME)){
             wd = new EventFiringWebDriver(new ChromeDriver());
         }else if (browser.equals(BrowserType.FIREFOX)){

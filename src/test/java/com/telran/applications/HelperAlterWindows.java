@@ -1,7 +1,10 @@
 package com.telran.applications;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +15,7 @@ public class HelperAlterWindows extends HelperBase{
     }
 
     public void selectItenAler() {
+
         clickByxPath("//div//h5[.='Alerts, Frame & Windows']");
     }
 
