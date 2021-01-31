@@ -9,9 +9,15 @@ public class StudentRegForm {
     private String bDay;
     private String subject;
     private String hoddies;
+    private String picture;
     private String adress;
     private String state;
     private String city;
+
+    public StudentRegForm withPicture(String picture) {
+        this.picture = picture;
+        return this;
+    }
 
     public StudentRegForm withfName(String fName) {
         this.fName = fName;
@@ -98,6 +104,10 @@ public class StudentRegForm {
 
     public String getHoddies() {
         return hoddies;
+    }
+
+    public String getPicture() {
+        return picture;
     }
 
     public String getAdress() {

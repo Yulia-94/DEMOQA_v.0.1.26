@@ -30,6 +30,12 @@ public class HelperBase {
             wd.findElement(locator).sendKeys(text);
         }
     }
+    public void attachPhoto(By locator, File file) {
+        if(file!=null) {
+            wd.findElement(locator).sendKeys(file.getAbsolutePath());
+        }
+    }
+
 
     public void typeWithJSE(By local, String text){
         if(text != null){

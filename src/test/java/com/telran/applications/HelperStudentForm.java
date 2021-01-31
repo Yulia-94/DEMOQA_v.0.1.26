@@ -4,7 +4,9 @@ import com.telran.models.StudentRegForm;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
+import java.io.File;
 import java.util.List;
 
 public class HelperStudentForm extends HelperBase{
@@ -150,4 +152,11 @@ public class HelperStudentForm extends HelperBase{
     public boolean isCloseList() {
         return isElementPresent(By.id("closeLargeModal"));
     }
+
+
+    public void changePhoto(String path) {
+        attachPhoto(By.cssSelector("#uploadPicture"), new File(path));
+    }
+
+
 }
