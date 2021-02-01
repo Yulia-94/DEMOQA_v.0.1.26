@@ -1,0 +1,15 @@
+14:17:46 INFO  - Start test - >testWindowsMessage
+14:17:46 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[3]
+14:17:46 INFO  - By.xpath: //div[@class='category-cards']/div[3]<- found
+14:17:46 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+14:17:46 INFO  - By.xpath: //span[.='Browser Windows']<- found
+14:17:46 INFO  - Start search ->By.id: messageWindowButton
+14:17:46 INFO  - By.id: messageWindowButton<- found
+14:17:47 INFO  - Start search ->By.id: sampleHeading
+14:18:12 ERROR - org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=sampleHeading
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: driver.version: EventFiringWebDriver
+14:18:12 INFO  - End of test -> testWindowsMessage
+************************************

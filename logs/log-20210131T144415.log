@@ -1,0 +1,15 @@
+14:44:24 INFO  - Start test - >testAlerts
+14:44:24 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[3]
+14:44:24 INFO  - By.xpath: //div[@class='category-cards']/div[3]<- found
+14:44:24 INFO  - Start search ->By.xpath: //span[.='Alerts']
+14:44:24 INFO  - By.xpath: //span[.='Alerts']<- found
+14:44:26 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text">...</span> is not clickable at point (103, 607). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c8deff8b544332d78d40699bc2f3189e
+14:44:26 ERROR - src/test/screenshots/screen-1612093466122.png
+14:44:26 INFO  - End of test -> testAlerts
+************************************

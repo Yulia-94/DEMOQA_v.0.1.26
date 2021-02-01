@@ -1,5 +1,6 @@
 package com.telran.applications;
 
+import com.telran.tests.JSExecutorTest;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -24,6 +25,16 @@ public class ApplicationManager {
     String browser;
     Properties properties;
     HelperAlterWindows alterWindows;
+    HelperSelect select;
+    HelperJSExecutor jsexecutor;
+
+    public HelperJSExecutor jsexecutor() {
+        return jsexecutor;
+    }
+
+    public HelperSelect select() {
+        return select;
+    }
 
     public HelperAlterWindows alterWindows() {
         return alterWindows;
@@ -62,6 +73,8 @@ public class ApplicationManager {
         user = new HelperUser(wd);
         student = new HelperStudentForm(wd);
         alterWindows = new HelperAlterWindows(wd);
+        select = new HelperSelect(wd);
+        jsexecutor = new HelperJSExecutor(wd);
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
         // print logback's internal status

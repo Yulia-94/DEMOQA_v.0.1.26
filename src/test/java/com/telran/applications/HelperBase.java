@@ -79,8 +79,8 @@ public class HelperBase {
 
     public void clickByxPath(String xPathSelector) {
         wd.findElement(By.xpath(xPathSelector)).click();
-        //Actions actions =new Actions(wd);
-        //actions.moveToElement(wd.findElement(By.id(xPathSelector))).click().perform();
+       // Actions actions =new Actions(wd);
+     //   actions.moveToElement(wd.findElement(By.id(xPathSelector))).click().perform();
     }
     public void pause(int millis) throws InterruptedException {
         Thread.sleep(millis);

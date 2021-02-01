@@ -1,0 +1,7 @@
+18:15:35 INFO  - Start test - >testAlerts
+18:15:36 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[3]
+18:15:36 INFO  - By.xpath: //div[@class='category-cards']/div[3]<- found
+18:15:37 INFO  - Start search ->By.xpath: //div[@class='element-list collapse show']//li[2]
+18:15:37 INFO  - By.xpath: //div[@class='element-list collapse show']//li[2]<- found
+18:15:38 INFO  - End of test -> testAlerts
+************************************

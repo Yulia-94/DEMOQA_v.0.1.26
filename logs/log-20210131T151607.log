@@ -1,0 +1,16 @@
+15:16:16 INFO  - Start test - >testAlerts
+15:16:16 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[3]
+15:16:16 INFO  - By.xpath: //div[@class='category-cards']/div[3]<- found
+15:16:16 INFO  - Start search ->By.xpath: //li[@class='btn btn-light active']
+15:16:26 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='btn btn-light active']"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:51898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 39fb2b56e625c1915a3718b7c36fb888
+*** Element info: {Using=xpath, value=//li[@class='btn btn-light active']}
+15:16:27 ERROR - src/test/screenshots/screen-1612095386572.png
+15:16:27 INFO  - End of test -> testAlerts
+************************************

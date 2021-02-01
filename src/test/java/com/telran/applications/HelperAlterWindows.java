@@ -29,6 +29,19 @@ public class HelperAlterWindows extends HelperBase{
         clickByxPath("//span[.='Browser Windows']");
     }
 
+
+    public void selectBrowserAlerts() {
+        //click(By.xpath("//span[.='Alerts']"));
+       clickByxPath("//div[@class='element-list collapse show']//li[2]");
+       //Actions actions = new Actions(wd);
+    //  actions.moveToElement(wd.findElement(By.xpath("//div[@class='element-list collapse show']//li[2]"))).click().perform();
+
+
+
+
+
+    }
+
     public void clickOnTabButton() {
         System.out.println(wd.getWindowHandles());
         click(By.id("tabButton"));
@@ -42,11 +55,24 @@ public class HelperAlterWindows extends HelperBase{
     }
 
     public void testAlert(){
+
         //Ok
         wd.switchTo().alert().accept();
         //cancel
         wd.switchTo().alert().dismiss();
         //send mess
         wd.switchTo().alert().sendKeys("text");
+    }
+
+    public void clickOnWindowButton() {
+        System.out.println(wd.getWindowHandles());
+        click(By.id("windowButton"));
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(1));
+    }
+
+
+    public boolean isText() {
+        return isElementPresent(By.xpath("//span[.='Click Button to see alert']"));
     }
 }

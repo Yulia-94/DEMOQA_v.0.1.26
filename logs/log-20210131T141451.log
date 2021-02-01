@@ -1,0 +1,8 @@
+14:15:01 INFO  - Start test - >testWindowsMessage
+14:15:01 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[3]
+14:15:01 INFO  - By.xpath: //div[@class='category-cards']/div[3]<- found
+14:15:01 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+14:15:01 INFO  - By.xpath: //span[.='Browser Windows']<- found
+14:15:01 INFO  - Start search ->By.id: messageWindowButton
+14:15:02 INFO  - By.id: messageWindowButton<- found
+14:15:04 INFO  - Start search ->By.id: sampleHeading
