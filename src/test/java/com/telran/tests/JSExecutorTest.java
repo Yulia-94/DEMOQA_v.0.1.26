@@ -8,7 +8,7 @@ public class JSExecutorTest extends TestBase{
     public void jsexecutorTest() throws InterruptedException {
         app.jsexecutor().clickItemElement();
         app.jsexecutor().selectTextBox();
-        app.jsexecutor().typeJS("Nona", "swsa9@mail.com");
+        app.jsexecutor().typeJS("Nona", "swsa9@mail.com", "Rehovot");
         app.jsexecutor().clickSubmitButton();
     }
 }

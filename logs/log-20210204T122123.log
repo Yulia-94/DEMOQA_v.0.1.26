@@ -1,0 +1,7 @@
+12:21:31 INFO  - Start test - >jsexecutorTest
+12:21:31 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[1]
+12:21:31 INFO  - By.xpath: //div[@class='category-cards']/div[1]<- found
+12:21:31 INFO  - Start search ->By.xpath: //span[.='Text Box']
+12:21:31 INFO  - By.xpath: //span[.='Text Box']<- found
+12:21:43 INFO  - End of test -> jsexecutorTest
+************************************

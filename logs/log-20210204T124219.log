@@ -1,0 +1,7 @@
+12:42:26 INFO  - Start test - >testMuli
+12:42:26 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[4]
+12:42:26 INFO  - By.xpath: //div[@class='category-cards']/div[4]<- found
+12:42:27 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+12:42:27 INFO  - By.xpath: //span[.='Select Menu']<- found
+12:42:28 INFO  - End of test -> testMuli
+************************************

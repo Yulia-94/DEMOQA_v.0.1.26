@@ -97,6 +97,10 @@ public class HelperStudentForm extends HelperBase{
             clickByxPath("//label[@for='hobbies-checkbox-2']");
             clickByxPath("//label[@for='hobbies-checkbox-3']");
         }
+
+        //JavascriptExecutor js = (JavascriptExecutor) wd;
+      //  js.executeScript("document.getElementById('hobbies-checkbox-1').checked=false;");
+
     }
 
     private void typeBDay(String bday){

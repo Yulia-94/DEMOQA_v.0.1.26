@@ -17,16 +17,19 @@ public class HelperJSExecutor extends HelperBase {
         click(By.xpath("//span[.='Text Box']"));
     }
 
-    public void typeJS(String name, String email) {
-        if (name != null && email != null) {
+    public void typeJS(String name, String email, String address) throws InterruptedException {
+        if (name != null && email != null && address != null) {
             JavascriptExecutor js = (JavascriptExecutor) wd;
-            js.executeScript("document.getElementById('userName').value='" + name + "';");
+            js.executeScript("document.getElementById('userName').value='"+name+"';");
+            pause(2000);
+            js.executeScript("document.getElementById('userEmail').value='"+name+"';");
+            js.executeScript("document.getElementById('currentAddress').value='"+name+"';");
         }
     }
 
     public void clickSubmitButton() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) wd;
-        js.executeScript("document.querySelector('footer').staly.display='none';");
+        js.executeScript("document.querySelector('footer').style.display='none';");
        pause(3000);
         js.executeScript("document.getElementById('submit').click();");
         pause(3000);

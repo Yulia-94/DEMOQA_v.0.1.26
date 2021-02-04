@@ -1,0 +1,21 @@
+12:36:27 INFO  - Start test - >testMuli
+12:36:28 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[4]
+12:36:28 INFO  - By.xpath: //div[@class='category-cards']/div[4]<- found
+12:36:28 INFO  - Start search ->By.xpath: //li[@id='item-8']
+12:36:28 INFO  - By.xpath: //li[@id='item-8']<- found
+12:36:28 ERROR - org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Þëÿ\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:52048}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 742effb86f1a7955b85dd5d1f3382cf2
+12:36:29 ERROR - src/test/screenshots/screen-1612431388647.png
+12:36:29 INFO  - Start search ->By.id: selectOne
+12:36:33 ERROR - org.openqa.selenium.NoSuchElementException: Cannot locate an element using id=selectOne
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YULIA', ip: '192.168.1.17', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_271'
+Driver info: driver.version: EventFiringWebDriver
+12:36:33 INFO  - End of test -> testMuli
+************************************
