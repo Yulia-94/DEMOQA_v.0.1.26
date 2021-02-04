@@ -1,0 +1,21 @@
+14:38:25 INFO  - Start test - >testMuli
+14:38:25 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[4]
+14:38:25 INFO  - By.xpath: //div[@class='category-cards']/div[4]<- found
+14:38:26 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+14:38:26 INFO  - By.xpath: //span[.='Select Menu']<- found
+14:38:26 INFO  - Start search ->By.id: withOptGroup
+14:38:26 INFO  - By.id: withOptGroup<- found
+14:38:26 INFO  - Start search ->By.xpath: //*[text()='Group 1, option 1']
+14:38:26 INFO  - By.xpath: //*[text()='Group 1, option 1']<- found
+14:38:32 INFO  - Start search ->By.id: selectOne
+14:38:32 INFO  - By.id: selectOne<- found
+14:38:32 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+14:38:32 INFO  - By.xpath: //*[text()='Mr.']<- found
+14:38:37 INFO  - Start search ->By.id: oldSelectMenu
+14:38:37 INFO  - By.id: oldSelectMenu<- found
+14:38:37 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "Black"]
+14:38:37 INFO  - By.xpath: .//option[normalize-space(.) = "Black"]<- found
+14:38:42 INFO  - Start search ->By.id: react-select-4-input
+14:38:42 INFO  - By.id: react-select-4-input<- found
+14:38:42 INFO  - End of test -> testMuli
+************************************

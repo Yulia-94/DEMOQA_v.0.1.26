@@ -1,0 +1,33 @@
+16:03:05 INFO  - Start test - >testMuli
+16:03:05 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[4]
+16:03:05 INFO  - By.xpath: //div[@class='category-cards']/div[4]<- found
+16:03:06 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+16:03:06 INFO  - By.xpath: //span[.='Select Menu']<- found
+16:03:06 INFO  - Start search ->By.id: withOptGroup
+16:03:06 INFO  - By.id: withOptGroup<- found
+16:03:07 INFO  - Start search ->By.xpath: //*[text()='Group 1, option 1']
+16:03:07 INFO  - By.xpath: //*[text()='Group 1, option 1']<- found
+16:03:12 INFO  - Start search ->By.id: selectOne
+16:03:12 INFO  - By.id: selectOne<- found
+16:03:12 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+16:03:12 INFO  - By.xpath: //*[text()='Mr.']<- found
+16:03:17 INFO  - Start search ->By.id: oldSelectMenu
+16:03:17 INFO  - By.id: oldSelectMenu<- found
+16:03:17 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "Black"]
+16:03:17 INFO  - By.xpath: .//option[normalize-space(.) = "Black"]<- found
+16:03:22 INFO  - Start search ->By.id: react-select-4-input
+16:03:22 INFO  - By.id: react-select-4-input<- found
+16:03:22 INFO  - Start search ->By.id: react-select-4-input
+16:03:22 INFO  - By.id: react-select-4-input<- found
+16:03:23 INFO  - Start search ->By.id: react-select-4-input
+16:03:23 INFO  - By.id: react-select-4-input<- found
+16:03:28 INFO  - Start search ->By.id: cars
+16:03:28 INFO  - By.id: cars<- found
+16:03:28 INFO  - Start search ->By.tagName: option
+16:03:28 INFO  - By.tagName: option<- found
+16:03:28 INFO  - Start search ->By.tagName: option
+16:03:28 INFO  - By.tagName: option<- found
+16:03:28 INFO  - Start search ->By.tagName: option
+16:03:28 INFO  - By.tagName: option<- found
+16:03:33 INFO  - End of test -> testMuli
+************************************

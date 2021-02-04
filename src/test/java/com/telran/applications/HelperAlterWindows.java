@@ -31,13 +31,10 @@ public class HelperAlterWindows extends HelperBase{
 
 
     public void selectBrowserAlerts() {
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('footer').style.display='none';");
         //click(By.xpath("//span[.='Alerts']"));
        clickByxPath("//div[@class='element-list collapse show']//li[2]");
-       //Actions actions = new Actions(wd);
-    //  actions.moveToElement(wd.findElement(By.xpath("//div[@class='element-list collapse show']//li[2]"))).click().perform();
-
-
-
 
 
     }
@@ -54,12 +51,17 @@ public class HelperAlterWindows extends HelperBase{
         return wd.findElement(By.id("sampleHeading")).getText();
     }
 
-    public void testAlert(){
-
+    public void testAlert() throws InterruptedException {
+        click(By.id("alertButton"));
+        pause(3000);
         //Ok
         wd.switchTo().alert().accept();
+        click(By.id("confirmButton"));
+        pause(3000);
         //cancel
         wd.switchTo().alert().dismiss();
+        click(By.id("promtButton"));
+        pause(3000);
         //send mess
         wd.switchTo().alert().sendKeys("text");
     }

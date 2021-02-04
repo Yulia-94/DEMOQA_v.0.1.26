@@ -1,0 +1,13 @@
+16:15:38 INFO  - Start test - >testAlerts
+16:15:38 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[3]
+16:15:38 INFO  - By.xpath: //div[@class='category-cards']/div[3]<- found
+16:15:39 INFO  - Start search ->By.xpath: //div[@class='element-list collapse show']//li[2]
+16:15:39 INFO  - By.xpath: //div[@class='element-list collapse show']//li[2]<- found
+16:15:40 INFO  - Start search ->By.id: alertButton
+16:15:40 INFO  - By.id: alertButton<- found
+16:15:44 INFO  - Start search ->By.id: confirmButton
+16:15:44 INFO  - By.id: confirmButton<- found
+16:15:47 INFO  - Start search ->By.id: promtButton
+16:15:47 INFO  - By.id: promtButton<- found
+16:15:50 INFO  - End of test -> testAlerts
+************************************

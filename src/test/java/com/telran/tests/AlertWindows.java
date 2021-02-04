@@ -33,8 +33,8 @@ public class AlertWindows extends TestBase
         app.alterWindows().pause(1000);
         app.alterWindows().selectBrowserAlerts();
         app.alterWindows().pause(1000);
-    //   app.alterWindows().testAlert();
-    //    Assert.assertTrue(app.alterWindows().isText());
+       app.alterWindows().testAlert();
+
 
     }
 }

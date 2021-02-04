@@ -53,8 +53,19 @@ public class HelperSelect extends HelperBase{
         new Select(wd.findElement(By.id("oldSelectMenu"))).selectByVisibleText(text);
     }
 
-    public void multiselectdropDown(String text) { JavascriptExecutor js = (JavascriptExecutor) wd;
-      js.executeScript("document.getElementById('react-select-4-input').checked=false;",text);
+    public void multiselectdropDown(String color) {
+        click(By.id("react-select-4-input"));
+        if(color.equals("Green")){
+            clickByxPath("//div[@style='overflow: hidden; white-space: nowrap; width: 70.918px;']");
+        } else if(color.equals("Blue")){
+            clickByxPath("//div[@style='overflow: hidden; white-space: nowrap; width: 60.8203px;']");
+        } else if(color.equals("Black")){
+            clickByxPath("//div[@style='overflow: hidden; white-space: nowrap; width: 66.0625px;']");
+        } else if(color.equals("Red")) {
+            clickByxPath("//div[@style='overflow: hidden; white-space: nowrap; width: 58.2656px;']");
+
+
+        }
     }
 
 }
